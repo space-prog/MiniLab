@@ -12,7 +12,7 @@
     padding: 11px 90px;
     display: flex;
     align-items: center;
-    box-shadow: 0 0 4px 0 rgba(0,0,0,0.12);
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.12);
 }
 
 .logo {
@@ -79,4 +79,165 @@
     color: #262626;
     font-family: "Segoe UI";
     text-decoration: none;
+}
+
+.wrapper {
+    margin: 0 auto;
+    max-width: 1171px;
+}
+
+.ad {
+    background: url('../img/Layer7.png') no-repeat center/contain;
+    width: 100%;
+    max-width: 1171px;
+    min-height: 540px;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+.ad div {
+    padding-top: 189px;
+    padding-left: 71px;
+}
+
+.ad div>button {
+    display: flex;
+    align-items: center;
+    width: 230px;
+    height: 45px;
+    background-color: #ffffff;
+    border: none;
+    column-gap: 20px;
+    padding: 0 26px;
+    white-space: nowrap;
+}
+
+.ad div>button p {
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #262626;
+    font-family: "Segoe UI";
+}
+
+.p1 {
+    font-size: 46px;
+    line-height: 48px;
+    color: #fff;
+    font-weight: bold;
+    font-family: "Segoe UI";
+    padding-bottom: 22px;
+}
+
+.p2 {
+    font-size: 16px;
+    line-height: 24px;
+    color: #fff;
+    font-family: "Segoe UI";
+    margin-bottom: 30px;
+}
+
+.perelik {
+    font-size: 22px;
+    letter-spacing: 1px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #0d0d0d;
+    font-weight: bold;
+    font-family: "Segoe UI";
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 41px;
+}
+
+.figname {
+    font-size: 20px;
+    line-height: 24px;
+    color: #0d0d0d;
+    font-weight: bold;
+    font-family: "Segoe UI";
+    padding: 25px 0 13px;
+}
+
+.details {
+    width: 264px;
+    height: 64px;
+    font-size: 15px;
+    line-height: 21px;
+    color: #262626;
+    font-family: "Segoe UI";
+}
+
+.details1 {
+    width: 264px;
+    font-size: 15px;
+    line-height: 21px;
+    color: #262626;
+    font-family: "Segoe UI";
+    padding-bottom: 41px;
+}
+
+.figlink {
+    font-size: 13px;
+    letter-spacing: 1px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #0067b8;
+    font-family: "Segoe UI";
+    text-align: right;
+    display: flex;
+    column-gap: 11px;
+    align-items: center;
+    padding-top: 18px;
+}
+
+.figlink1 {
+    font-size: 13px;
+    letter-spacing: 1px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #0067b8;
+    font-family: "Segoe UI";
+    display: flex;
+    align-items: center;
+    column-gap: 11px;
+    padding-top: 18px;
+}
+
+.figlink2 {
+    font-size: 13px;
+    letter-spacing: 1px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #0067b8;
+    font-family: "Segoe UI";
+    display: flex;
+    align-items: center;
+    column-gap: 11px;
+}
+
+.figlink,
+.figlink1,
+.figlink2 {
+    text-decoration: none;
+}
+
+.figlink:hover,
+.figlink1:hover,
+.figlink2:hover {
+    text-decoration: underline;
+}
+
+.figlink img,
+.figlink1 img {
+    width: 5px;
+    height: 9px;
+}
+
+.picture {
+    transition: all .3s ease;
+}
+
+.picture:hover {
+    transform: scale(1.1);
 }
