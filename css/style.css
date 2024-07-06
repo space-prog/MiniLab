@@ -202,6 +202,7 @@
     align-items: center;
     column-gap: 11px;
     padding-top: 18px;
+    width: 270px;
 }
 
 .figlink2 {
@@ -240,4 +241,156 @@
 
 .picture:hover {
     transform: scale(1.1);
+}
+
+.ad2 {
+    background: url('../img/ad2.png') no-repeat center/contain;
+    width: 100%;
+    max-width: 1171px;
+    min-height: 540px;
+    margin: 0 auto;
+    padding-top: 67px;
+}
+
+.n1 {
+    width: 500px;
+    font-size: 46px;
+    line-height: 48px;
+    color: #0d0d0d;
+    font-weight: bold;
+    font-family: "Segoe UI";
+    padding-bottom: 31px;
+}
+
+.n2 {
+    width: 467px;
+    height: 46px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #0d0d0d;
+    font-family: "Segoe UI";
+    padding-bottom: 30px;
+}
+
+.ad2 button>img {
+    width: 6px;
+    height: 10px;
+}
+
+.ad2 button {
+    width: 230px;
+    height: 45px;
+    background-color: #0d0d0d;
+    display: flex;
+    padding: 0 26px;
+    align-items: center;
+}
+
+.ad2 button>p {
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-family: "Segoe UI";
+}
+
+.ad2 div {
+    padding: 165px 0 0 69px;
+}
+
+.lookforus p {
+    opacity: 0.702;
+    font-size: 15px;
+    line-height: 30px;
+    color: #262626;
+    font-family: "Segoe UI";
+    text-align: center;
+}
+
+.icons {
+    padding-top: 19px;
+    display: flex;
+    justify-content: center;
+    column-gap: 14px;
+    padding-bottom: 54px;
+}
+
+.icons img {
+    transition: all .3s ease;
+}
+
+.icons img:hover {
+    transform: scale(1.2);
+}
+
+.footer {
+    background-color: #f2f2f2;
+    padding: 58px 0 30px 0;
+}
+
+.footer-wrapper ul>p {
+    font-size: 15px;
+    line-height: 24px;
+    color: #616161;
+    font-weight: bold;
+    font-family: "Segoe UI";
+    padding-bottom: 24px;
+}
+
+.footer-wrapper ul>li a {
+    font-size: 13px;
+    line-height: 19px;
+    color: #616161;
+    font-family: "Segoe UI";
+    text-align: right;
+    text-decoration: none;
+}
+
+.footer-wrapper ul>li a:hover {
+    text-decoration: underline;
+}
+
+.footer-wrapper ul>li {
+    padding-bottom: 20px;
+}
+
+.footer-wrapper ul {
+    list-style-type: none;
+}
+
+.lang {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.lang a {
+    font-size: 12px;
+    line-height: 19px;
+    color: #616161;
+    font-family: "Segoe UI";
+    text-decoration: none;
+}
+
+.lang img {
+    width: 14px;
+    height: 15px;
+}
+
+.links {
+    display: flex;
+    column-gap: 27px;
+    font-size: 12px;
+    line-height: 19px;
+    font-family: "Segoe UI";
+}
+
+.links a {
+    color: #616161;
+    text-decoration: none;
+}
+
+.footer_bottom {
+    padding-top: 61px;
 }
