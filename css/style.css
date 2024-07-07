@@ -87,7 +87,7 @@
 }
 
 .ad {
-    background: url('../img/Layer7.png') no-repeat center/contain;
+    background: url('../img/Layer7.webp') no-repeat center/contain;
     width: 100%;
     max-width: 1171px;
     min-height: 540px;
@@ -244,7 +244,7 @@
 }
 
 .ad2 {
-    background: url('../img/ad2.png') no-repeat center/contain;
+    background: url('../img/ad2.webp') no-repeat center/contain;
     width: 100%;
     max-width: 1171px;
     min-height: 540px;
