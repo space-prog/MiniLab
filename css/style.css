@@ -252,6 +252,10 @@
     padding-top: 67px;
 }
 
+.ad2 div>button {
+    border: none;
+}
+
 .n1 {
     width: 500px;
     font-size: 46px;
