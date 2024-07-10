@@ -254,6 +254,7 @@
 
 .ad2 div>button {
     border: none;
+    transition: all .3s ease;
 }
 
 .n1 {
@@ -401,4 +402,12 @@
 
 .arrow {
     padding-left: 15px;
+}
+
+.ad2 div>button:hover {
+    background-color: #fff;
+}
+
+.ad2 div>button:hover>p{
+    color: #000;
 }
