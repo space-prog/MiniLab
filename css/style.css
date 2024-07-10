@@ -178,6 +178,7 @@
 }
 
 .figlink {
+    text-align: left;
     font-size: 13px;
     letter-spacing: 1px;
     line-height: 20px;
@@ -187,7 +188,7 @@
     text-align: right;
     display: flex;
     column-gap: 11px;
-    align-items: center;
+    align-items: left;
     padding-top: 18px;
 }
 
@@ -408,6 +409,164 @@
     background-color: #fff;
 }
 
-.ad2 div>button:hover>p{
+.ad2 div>button:hover>p {
     color: #000;
+}
+
+.ad div>button:hover {
+    background-color: #000;
+}
+
+.ad div>button:hover>p {
+    color: #fff;
+}
+
+.ad div>button {
+    transition: all .3s ease;
+}
+
+.test {
+    position: relative;
+    display: block;
+}
+
+
+.test:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 70px;
+    width: 10px;
+    height: 10px;
+    border-top: 2px solid #0067b8;
+    border-right: 2px solid #0067b8;
+    transform: translateY(-50%) rotate(45deg) scale(0.5);
+    transition: all .4s ease;
+}
+
+
+.test:hover:after {
+    transform: translateY(-50%) rotate(135deg) scale(0.5);
+    border-color: #0067b8;
+}
+
+.test2 {
+    position: relative;
+    display: block;
+    padding: 20px 100px 0 0;
+}
+
+.test2:after {
+    content: "";
+    position: absolute;
+    top: 75%;
+    right: 75px;
+    width: 10px;
+    height: 10px;
+    border-top: 2px solid #0067b8;
+    border-right: 2px solid #0067b8;
+    transform: translateY(-50%) rotate(45deg) scale(0.5);
+    transition: all .4s ease;
+}
+
+.test2:hover:after {
+    transform: translateY(-50%) rotate(135deg) scale(0.5);
+    border-color: #0067b8;
+}
+
+.test3 {
+    position: relative;
+    display: block;
+}
+
+.test3:after {
+    content: "";
+    position: absolute;
+    top: 85%;
+    right: 130px;
+    width: 10px;
+    height: 10px;
+    border-top: 2px solid #0067b8;
+    border-right: 2px solid #0067b8;
+    transform: translateY(-50%) rotate(45deg) scale(0.5);
+    transition: all .4s ease;
+}
+
+.test3:hover:after {
+    transform: translateY(-50%) rotate(135deg) scale(0.5);
+    border-color: #0067b8
+}
+
+
+.test4 {
+    position: relative;
+    display: block;
+}
+
+.test4:after {
+    content: "";
+    position: absolute;
+    top: 75%;
+    right: 80px;
+    width: 10px;
+    height: 10px;
+    border-top: 2px solid #0067b8;
+    border-right: 2px solid #0067b8;
+    transform: translateY(-50%) rotate(45deg) scale(0.5);
+    transition: all .4s ease;
+}
+
+.test4:hover:after {
+    transform: translateY(-50%) rotate(135deg) scale(0.5);
+    border-color: #0067b8;
+}
+
+.figlink4 {
+    text-align: left;
+    font-size: 13px;
+    letter-spacing: 1px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #0067b8;
+    font-family: "Segoe UI";
+    text-align: right;
+    display: flex;
+    column-gap: 11px;
+    align-items: left;
+    padding-top: 18px;
+    text-decoration: none;
+}
+
+.figlink4:hover {
+    text-decoration: underline;
+}
+
+.test5:after {
+    right: 20px;
+    border-color: #fff;
+}
+
+.test5:hover:after {
+    border-color: #000;
+}
+
+.test6:after {
+    right: 20px;
+    border-color: #000;
+}
+
+.test6:hover:after {
+    border-color: #fff;
+}
+
+.test7:after {
+    left: 86px;
+    top: 15px;
+    border-color: #888;
+    transform: translateY(-50%) rotate(135deg) scale(0.5);
+}
+
+.test7:hover:after {
+    border-color: #888;
+    transform: translateY(-50%) rotate(-45deg) scale(0.5);
 }
