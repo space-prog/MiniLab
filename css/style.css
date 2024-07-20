@@ -35,7 +35,7 @@ ul {
 
 .logo-text {
     font-size: 20px;
-    line-height: 1.5%;
+    line-height: 1.5em;
     color: #666;
     font-weight: bold;
     font-family: "Segoe UI";
@@ -209,8 +209,7 @@ ul {
 }
 
 .figlink:hover,
-.figlink1:hover,
-.figlink2:hover {
+.figlink1:hover {
     text-decoration: underline;
 }
 
