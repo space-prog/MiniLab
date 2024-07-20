@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+body {
+    font-family: 'Segoe UI';
+}
+
 ul {
     list-style: none;
 }
@@ -38,7 +42,6 @@ ul {
     line-height: 1.5em;
     color: #666;
     font-weight: bold;
-    font-family: "Segoe UI";
     text-align: right;
 }
 
@@ -54,7 +57,6 @@ ul {
 .nav a {
     font-size: 15px;
     color: #262626;
-    font-family: "Segoe UI";
     text-decoration: none;
 }
 
@@ -101,7 +103,6 @@ ul {
     font-size: 15px;
     line-height: 2em;
     color: #262626;
-    font-family: "Segoe UI";
     text-decoration: none;
 }
 
@@ -141,14 +142,12 @@ ul {
     letter-spacing: 1px;
     text-transform: uppercase;
     color: #262626;
-    font-family: "Segoe UI";
 }
 
 .p1 {
     font-size: 46px;
     color: #fff;
     font-weight: bold;
-    font-family: "Segoe UI";
     padding-bottom: 22px;
 }
 
@@ -156,7 +155,6 @@ ul {
     font-size: 16px;
     line-height: 1.5em;
     color: #fff;
-    font-family: "Segoe UI";
     margin-bottom: 30px;
 }
 
@@ -166,7 +164,6 @@ ul {
     text-transform: uppercase;
     color: #0d0d0d;
     font-weight: bold;
-    font-family: "Segoe UI";
     text-align: center;
     padding-top: 50px;
     padding-bottom: 41px;
@@ -177,7 +174,6 @@ ul {
     line-height: 1.2em;
     color: #0d0d0d;
     font-weight: bold;
-    font-family: "Segoe UI";
     padding: 25px 0 13px;
 }
 
@@ -188,7 +184,6 @@ ul {
     font-size: 15px;
     line-height: 1.4em;
     color: #262626;
-    font-family: "Segoe UI";
 }
 
 .figlink {
@@ -197,7 +192,6 @@ ul {
     line-height: 1.5em;
     text-transform: uppercase;
     color: #0067b8;
-    font-family: "Segoe UI";
 }
 
 .figlink1 {
@@ -248,7 +242,6 @@ ul {
     font-size: 46px;
     color: #0d0d0d;
     font-weight: bold;
-    font-family: "Segoe UI";
     padding-bottom: 31px;
 }
 
@@ -258,7 +251,6 @@ ul {
     font-size: 16px;
     line-height: 1.5em;
     color: #0d0d0d;
-    font-family: "Segoe UI";
     padding-bottom: 30px;
 }
 
@@ -282,7 +274,6 @@ ul {
     line-height: 1.7em;
     text-transform: uppercase;
     color: #ffffff;
-    font-family: "Segoe UI";
 }
 
 .ad2 div {
@@ -294,7 +285,6 @@ ul {
     font-size: 15px;
     line-height: 2em;
     color: #262626;
-    font-family: "Segoe UI";
     text-align: center;
 }
 
@@ -324,14 +314,12 @@ ul {
     line-height: 1.6em;
     color: #616161;
     font-weight: bold;
-    font-family: "Segoe UI";
 }
 
 .footer-wrapper ul>li a {
     font-size: 13px;
     line-height: 1.4em;
     color: #616161;
-    font-family: "Segoe UI";
     text-align: right;
     text-decoration: none;
 }
@@ -358,7 +346,6 @@ ul {
     font-size: 12px;
     line-height: 1.6em;
     color: #616161;
-    font-family: "Segoe UI";
     text-decoration: none;
 }
 
@@ -372,7 +359,6 @@ ul {
     column-gap: 27px;
     font-size: 12px;
     line-height: 1.6em;
-    font-family: "Segoe UI";
 }
 
 .links a {
@@ -522,7 +508,6 @@ ul {
     padding-bottom: 4px;
     color: #262626;
     font-weight: bold;
-    font-family: "Segoe UI";
     min-height: 35px;
 }
 
@@ -539,7 +524,6 @@ ul {
     letter-spacing: 1px;
     text-transform: uppercase;
     color: #262626;
-    font-family: "Segoe UI";
 }
 
 .test8 {
