@@ -78,9 +78,11 @@ ul {
 .search {
     width: 264px;
     height: 38px;
+    position: absolute;
     background-color: #ffffff;
     border: 1px solid #999999;
     padding: 0 17px;
+    right: 140px;
 }
 
 .right {
@@ -551,4 +553,56 @@ ul {
 
 .test8:hover::after {
     border-color: #000;
+}
+
+.icon {
+    display: block;
+    position: relative;
+    padding-left: 11px;
+}
+
+.icon:before {
+    content: "";
+    position: absolute;
+    display: inline-block;
+    background: url(../img/Sprite.png) no-repeat;
+    top: 50%;
+    transform: translateY(-50%);
+    left: -21px;
+    transition: all .4s ease;
+}
+
+.cart a:before {
+    background-position: -129px -21px;
+    width: 18px;
+    height: 15px;
+    left: -5px;
+}
+
+.cart:hover > a:before {
+    background-position: -129px -38px;
+}
+
+.search-icon {
+    position: relative;
+}
+
+.search-icon a:before {
+    background-position: -112px -21px;
+    width: 15px;
+    height: 15px;
+}
+
+.search-icon:hover > a:before {
+    background-position: -112px -38px;
+}
+
+.ie a:before {
+    background-position: 1px 1px;
+    width: 35px;
+    height: 35px;
+}
+
+.ie:hover > a:before {
+    
 }
