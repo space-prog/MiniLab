@@ -599,10 +599,33 @@ ul {
 
 .ie a:before {
     background-position: 1px 1px;
+    width: 37px;
+    height: 37px;
+}
+
+.ch a:before {
+    background-position: -75px -1px;
     width: 35px;
     height: 35px;
 }
 
-.ie:hover > a:before {
-    
+.op a:before {
+    background-position: -38px -1px;
+    width: 35px;
+    height: 35px;
+}
+
+.lang-icon a:before {
+    background-position: -149px -21px;
+    width: 14px;
+    height: 15px;
+}
+
+.lang-icon:hover > a::before {
+    background-position: -149px -38px;
+}
+
+.icons {
+    margin-left: 16px;
+    column-gap: 34px;
 }
