@@ -577,10 +577,6 @@ ul {
     height: 15px;
 }
 
-.search-icon:hover > a:before {
-    background-position: -112px -38px;
-}
-
 .ie a:before {
     background-position: 1px 1px;
     width: 37px;
