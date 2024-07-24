@@ -78,13 +78,16 @@ ul {
 }
 
 .search {
-    width: 264px;
-    height: 38px;
-    position: absolute;
+    width: 100%;
+    max-height: 38px;
     background-color: #ffffff;
     border: 1px solid #999999;
-    padding: 0 17px;
-    right: 140px;
+    padding: 17px 15px;
+}
+
+.poshuk {
+    min-width: 248px;
+    position: relative;
 }
 
 .right {
@@ -320,7 +323,6 @@ ul {
     font-size: 13px;
     line-height: 1.4em;
     color: #616161;
-    text-align: right;
     text-decoration: none;
 }
 
@@ -329,7 +331,7 @@ ul {
 }
 
 .footer-wrapper ul>li {
-    padding-bottom: 20px;
+    padding-bottom: 18px;
 }
 
 .footer-wrapper ul {
@@ -568,10 +570,13 @@ ul {
 }
 
 .search-icon {
-    position: relative;
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 0;
 }
 
-.search-icon a:before {
+.search-icon:before {
     background-position: -112px -21px;
     width: 15px;
     height: 15px;
